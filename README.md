@@ -107,3 +107,33 @@ A curated list of open source tools and resources for intelligent document proce
   [![GitHub stars](https://img.shields.io/github/stars/opencv/opencv?style=social)](https://github.com/opencv/opencv)  
   A comprehensive computer vision library that provides robust tools for image processing and analysis, applicable to document pre-processing and beyond.  
   [Repository](https://github.com/opencv/opencv)
+
+- **scikit-image**  
+  [![GitHub stars](https://img.shields.io/github/stars/scikit-image/scikit-image?style=social)](https://github.com/scikit-image/scikit-image)  
+  A comprehensive collection of image processing algorithms built on SciPy—ideal for rapid prototyping and research-grade applications.  
+  [Repository](https://github.com/scikit-image/scikit-image)
+
+- **Albumentations**  
+  [![GitHub stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social)](https://github.com/albumentations-team/albumentations)  
+  A fast and flexible image augmentation library tailored for deep learning pipelines, enabling robust training for computer vision models.  
+  [Repository](https://github.com/albumentations-team/albumentations)
+
+- **Detectron2**  
+  [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/detectron2?style=social)](https://github.com/facebookresearch/detectron2)  
+  A cutting-edge object detection and segmentation framework built on PyTorch, powering both research experiments and production systems.  
+  [Repository](https://github.com/facebookresearch/detectron2)
+
+- **MMDetection**  
+  [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social)](https://github.com/open-mmlab/mmdetection)  
+  A robust and versatile object detection toolbox based on PyTorch, offering an extensive suite of models and utilities for modern detection tasks.  
+  [Repository](https://github.com/open-mmlab/mmdetection)
+
+- **Kornia**  
+  [![GitHub stars](https://img.shields.io/github/stars/kornia/kornia?style=social)](https://github.com/kornia/kornia)  
+  A differentiable computer vision library for PyTorch, providing modular and efficient image processing operations that integrate seamlessly into deep learning workflows.  
+  [Repository](https://github.com/kornia/kornia)
+
+- **Pillow**  
+  [![GitHub stars](https://img.shields.io/github/stars/python-pillow/Pillow?style=social)](https://github.com/python-pillow/Pillow)  
+  The modern fork of the Python Imaging Library (PIL), offering a broad range of image processing capabilities for both simple and complex tasks.  
+  [Repository](https://github.com/python-pillow/Pillow)
