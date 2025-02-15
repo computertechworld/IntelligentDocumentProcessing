@@ -79,90 +79,149 @@ This section is divided into subcategories to help you choose the right tool bas
 
 ## 3. PDF Processing
 
-- **Camelot**  
-  [![GitHub stars](https://img.shields.io/github/stars/camelot-dev/camelot?style=social)](https://github.com/camelot-dev/camelot)  
-  An efficient tool for extracting tables from PDF documents, enabling conversion of PDF tables into structured data for further analysis.  
-  [Repository](https://github.com/camelot-dev/camelot)
-
-- **Tabula**  
-  [![GitHub stars](https://img.shields.io/github/stars/tabulapdf/tabula?style=social)](https://github.com/tabulapdf/tabula)  
-  A user-friendly solution that facilitates the extraction of tabular data from PDFs, widely adopted for its simplicity and effectiveness.  
-  [Repository](https://github.com/tabulapdf/tabula)
-
+### A. Text Extraction & Layout Analysis
 - **pdfminer.six**  
   [![GitHub stars](https://img.shields.io/github/stars/pdfminer/pdfminer.six?style=social)](https://github.com/pdfminer/pdfminer.six)  
-  A comprehensive Python library for PDF parsing, capable of extracting text and metadata with granular control over the parsing process.  
+  A comprehensive Python library for PDF analysis, offering granular control for text extraction and layout analysis.  
   [Repository](https://github.com/pdfminer/pdfminer.six)
 
 - **PDFPlumber**  
   [![GitHub stars](https://img.shields.io/github/stars/jsvine/pdfplumber?style=social)](https://github.com/jsvine/pdfplumber)  
-  Provides detailed extraction of content and layout information from PDFs, ideal for applications requiring high-fidelity document analysis.  
+  A tool for precise extraction of text, tables, and metadata from PDFs, preserving key layout details in the process.  
   [Repository](https://github.com/jsvine/pdfplumber)
 
-- **PyMuPDF (fitz)**  
-  [![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social)](https://github.com/pymupdf/PyMuPDF)  
-  Python bindings for the MuPDF library, enabling efficient rendering and analysis of PDF and other document formats in a performant manner.  
-  [Repository](https://github.com/pymupdf/PyMuPDF)
+- **Apache PDFBox**  
+  [![GitHub stars](https://img.shields.io/github/stars/apache/pdfbox?style=social)](https://github.com/apache/pdfbox)  
+  A robust Java library offering extensive features for text extraction, document manipulation, and rendering of PDFs.  
+  [Repository](https://github.com/apache/pdfbox)
 
+### B. PDF Manipulation & Editing
 - **PyPDF2**  
   [![GitHub stars](https://img.shields.io/github/stars/py-pdf/PyPDF2?style=social)](https://github.com/py-pdf/PyPDF2)  
-  A versatile library for manipulating PDF documents—supporting tasks like merging, splitting, and text extraction.  
+  A versatile Python library for programmatically splitting, merging, and editing PDF documents.  
   [Repository](https://github.com/py-pdf/PyPDF2)
+
+- **pikepdf**  
+  [![GitHub stars](https://img.shields.io/github/stars/pikepdf/pikepdf?style=social)](https://github.com/pikepdf/pikepdf)  
+  Built on QPDF, this Python library enables secure and efficient PDF editing, including tasks like encryption and file repair.  
+  [Repository](https://github.com/pikepdf/pikepdf)
+
+- **qpdf**  
+  [![GitHub stars](https://img.shields.io/github/stars/qpdf/qpdf?style=social)](https://github.com/qpdf/qpdf)  
+  A command-line tool and library for performing structural, content-preserving transformations on PDF files.  
+  [Repository](https://github.com/qpdf/qpdf)
+
+### C. Rendering & Conversion
+- **PyMuPDF (fitz)**  
+  [![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social)](https://github.com/pymupdf/PyMuPDF)  
+  Python bindings for the MuPDF library, enabling efficient rendering of PDFs as images along with high-quality content extraction.  
+  [Repository](https://github.com/pymupdf/PyMuPDF)
 
 - **pdf2image**  
   [![GitHub stars](https://img.shields.io/github/stars/Belval/pdf2image?style=social)](https://github.com/Belval/pdf2image)  
-  Converts PDF pages into images, streamlining pre-processing workflows for OCR and further image-based analyses.  
+  Converts PDF pages into images using Poppler, facilitating image pre-processing and OCR workflows.  
   [Repository](https://github.com/Belval/pdf2image)
 
----
+- **pdf.js**  
+  [![GitHub stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social)](https://github.com/mozilla/pdf.js)  
+  A JavaScript library that renders PDFs directly in the browser, ideal for interactive web applications and client-side PDF viewing.  
+  [Repository](https://github.com/mozilla/pdf.js)
 
+### D. Table Extraction from PDFs
+- **Camelot**  
+  [![GitHub stars](https://img.shields.io/github/stars/camelot-dev/camelot?style=social)](https://github.com/camelot-dev/camelot)  
+  An efficient tool designed to extract tables from PDF documents, converting them into structured data formats for further analysis.  
+  [Repository](https://github.com/camelot-dev/camelot)
+
+- **Tabula**  
+  [![GitHub stars](https://img.shields.io/github/stars/tabulapdf/tabula?style=social)](https://github.com/tabulapdf/tabula)  
+  A widely adopted solution for extracting tabular data from PDFs, known for its ease-of-use and reliability.  
+  [Repository](https://github.com/tabulapdf/tabula)
+
+- **Excalibur**  
+  [![GitHub stars](https://img.shields.io/github/stars/camelot-dev/excalibur?style=social)](https://github.com/camelot-dev/excalibur)  
+  A web-based interface for Camelot that allows users to visually select and extract tables from PDF files.  
+  [Repository](https://github.com/camelot-dev/excalibur)
+
+
+---
 ## 4. Natural Language Processing (NLP)
 
+### A. General NLP Toolkits
 - **spaCy**  
   [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social)](https://github.com/explosion/spaCy)  
-  A fast, production-grade NLP library designed for large-scale information extraction and text processing tasks.  
+  A fast, production-ready NLP library designed for large-scale information extraction and text processing.  
   [Repository](https://github.com/explosion/spaCy)
 
+- **NLTK**  
+  [![GitHub stars](https://img.shields.io/github/stars/nltk/nltk?style=social)](https://github.com/nltk/nltk)  
+  A comprehensive library for symbolic and statistical natural language processing in Python, offering tools for tokenization, parsing, and more.  
+  [Repository](https://github.com/nltk/nltk)
+
+- **Stanza**  
+  [![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social)](https://github.com/stanfordnlp/stanza)  
+  A Python NLP library from the Stanford NLP Group, providing state-of-the-art neural network-based text analysis and annotation.  
+  [Repository](https://github.com/stanfordnlp/stanza)
+
+### B. Deep Learning-Based NLP Frameworks
 - **AllenNLP**  
   [![GitHub stars](https://img.shields.io/github/stars/allenai/allennlp?style=social)](https://github.com/allenai/allennlp)  
-  An advanced, research-oriented NLP framework from AI2, built to facilitate complex text analysis and deep learning experimentation.  
+  An advanced NLP framework built on PyTorch, designed to support cutting-edge research and robust application development in deep learning for NLP.  
   [Repository](https://github.com/allenai/allennlp)
+
+- **Hugging Face Transformers**  
+  [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social)](https://github.com/huggingface/transformers)  
+  A state-of-the-art library offering thousands of pre-trained models for a wide range of NLP tasks, simplifying the integration of transformer models into your projects.  
+  [Repository](https://github.com/huggingface/transformers)
+
+- **Flair**  
+  [![GitHub stars](https://img.shields.io/github/stars/flairNLP/flair?style=social)](https://github.com/flairNLP/flair)  
+  A simple yet powerful NLP framework that provides a range of text embeddings and pre-trained models for tasks such as named entity recognition and text classification.  
+  [Repository](https://github.com/flairNLP/flair)
 
 ---
 
 ## 5. Computer Vision & Image Processing
 
+### A. Core Libraries & Frameworks
 - **OpenCV**  
   [![GitHub stars](https://img.shields.io/github/stars/opencv/opencv?style=social)](https://github.com/opencv/opencv)  
-  A comprehensive computer vision library that provides robust tools for image processing and analysis, applicable to document pre-processing and beyond.  
+  A comprehensive computer vision library offering a vast array of functions for image processing, computer vision, and machine learning.  
   [Repository](https://github.com/opencv/opencv)
 
 - **scikit-image**  
   [![GitHub stars](https://img.shields.io/github/stars/scikit-image/scikit-image?style=social)](https://github.com/scikit-image/scikit-image)  
-  A comprehensive collection of image processing algorithms built on SciPy—ideal for rapid prototyping and research-grade applications.  
+  A collection of algorithms for image processing in Python, built on top of SciPy—ideal for rapid prototyping and research-grade applications.  
   [Repository](https://github.com/scikit-image/scikit-image)
 
-- **Albumentations**  
-  [![GitHub stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social)](https://github.com/albumentations-team/albumentations)  
-  A fast and flexible image augmentation library tailored for deep learning pipelines, enabling robust training for computer vision models.  
-  [Repository](https://github.com/albumentations-team/albumentations)
+- **Pillow**  
+  [![GitHub stars](https://img.shields.io/github/stars/python-pillow/Pillow?style=social)](https://github.com/python-pillow/Pillow)  
+  The friendly PIL fork, offering a powerful image processing toolkit for tasks ranging from basic operations to complex manipulations.  
+  [Repository](https://github.com/python-pillow/Pillow)
 
+### B. Deep Learning & Model-Based Computer Vision
 - **Detectron2**  
   [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/detectron2?style=social)](https://github.com/facebookresearch/detectron2)  
-  A cutting-edge object detection and segmentation framework built on PyTorch, powering both research experiments and production systems.  
+  A cutting-edge object detection and segmentation framework built on PyTorch, suitable for both research experiments and production systems.  
   [Repository](https://github.com/facebookresearch/detectron2)
 
 - **MMDetection**  
   [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social)](https://github.com/open-mmlab/mmdetection)  
-  A robust and versatile object detection toolbox based on PyTorch, offering an extensive suite of models and utilities for modern detection tasks.  
+  A robust object detection toolbox offering a wide range of models and utilities for modern detection tasks.  
   [Repository](https://github.com/open-mmlab/mmdetection)
 
 - **Kornia**  
   [![GitHub stars](https://img.shields.io/github/stars/kornia/kornia?style=social)](https://github.com/kornia/kornia)  
-  A differentiable computer vision library for PyTorch, providing modular and efficient image processing operations that integrate seamlessly into deep learning workflows.  
+  A differentiable computer vision library for PyTorch that provides a rich set of image processing operations, seamlessly integrating into deep learning workflows.  
   [Repository](https://github.com/kornia/kornia)
 
-- **Pillow**  
-  [![GitHub stars](https://img.shields.io/github/stars/python-pillow/Pillow?style=social)](https://github.com/python-pillow/Pillow)  
-  The modern fork of the Python Imaging Library (PIL), offering a broad range of image processing capabilities for both simple and complex tasks.  
-  [Repository](https://github.com/python-pillow/Pillow)
+### C. Data Augmentation & Preprocessing
+- **Albumentations**  
+  [![GitHub stars](https://img.shields.io/github/stars/albumentations-team/albumentations?style=social)](https://github.com/albumentations-team/albumentations)  
+  A fast and flexible image augmentation library designed to improve model robustness through diverse transformations.  
+  [Repository](https://github.com/albumentations-team/albumentations)
+
+- **imgaug**  
+  [![GitHub stars](https://img.shields.io/github/stars/aleju/imgaug?style=social)](https://github.com/aleju/imgaug)  
+  A powerful augmentation library for images, offering a variety of techniques to enhance training datasets for computer vision tasks.  
+  [Repository](https://github.com/aleju/imgaug)
