@@ -7,30 +7,38 @@ A curated list of open source tools and resources for intelligent document proce
 
 ## 1. OCR & Text Recognition
 
+## 1. OCR & Text Recognition
+
+This section is divided into subcategories to help you choose the right tool based on your specific OCR needs.
+
+### Traditional OCR Engines
 - **Tesseract OCR**  
   [![GitHub stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social)](https://github.com/tesseract-ocr/tesseract)  
-  A robust OCR engine maintained by Google that supports multiple languages and is widely integrated in various projects.  
+  A robust, long-standing OCR engine supporting multiple languages, widely adopted in both academic and industrial applications.  
   [Repository](https://github.com/tesseract-ocr/tesseract)
 
 - **OCRopus (ocropy)**  
   [![GitHub stars](https://img.shields.io/github/stars/tmbdev/ocropy?style=social)](https://github.com/tmbdev/ocropy)  
-  A modular OCR system that combines layout analysis with text recognition—ideal for handling complex document structures.  
+  A modular OCR system that integrates layout analysis with text recognition, making it suitable for processing complex document structures.  
   [Repository](https://github.com/tmbdev/ocropy)
 
-- **Kraken OCR**  
-  [![GitHub stars](https://img.shields.io/github/stars/mittagessen/kraken?style=social)](https://github.com/mittagessen/kraken)  
-  An OCR tool optimized for historical and handwritten documents, offering extended recognition features for niche use cases.  
-  [Repository](https://github.com/mittagessen/kraken)
-
+### Deep Learning-Based OCR
 - **PaddleOCR**  
   [![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social)](https://github.com/PaddlePaddle/PaddleOCR)  
-  A deep learning-based OCR solution from the PaddlePaddle ecosystem that delivers reliable text recognition even in challenging scenarios.  
+  A state-of-the-art, deep learning-driven OCR solution from the PaddlePaddle ecosystem, engineered to deliver reliable performance in diverse conditions.  
   [Repository](https://github.com/PaddlePaddle/PaddleOCR)
 
 - **DocTR (Document Text Recognition)**  
   [![GitHub stars](https://img.shields.io/github/stars/mindee/doctr?style=social)](https://github.com/mindee/doctr)  
-  A modern deep learning library focused on document text recognition, designed to handle diverse document layouts and formats.  
+  A modern deep learning library tailored for document text recognition, designed to efficiently handle varied layouts and formats.  
   [Repository](https://github.com/mindee/doctr)
+
+### Specialized OCR for Historical & Handwritten Documents
+- **Kraken OCR**  
+  [![GitHub stars](https://img.shields.io/github/stars/mittagessen/kraken?style=social)](https://github.com/mittagessen/kraken)  
+  Focused on historical and handwritten texts, Kraken provides advanced recognition capabilities for challenging scripts and degraded documents.  
+  [Repository](https://github.com/mittagessen/kraken)
+
 
 ---
 
