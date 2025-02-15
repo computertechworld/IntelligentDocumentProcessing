@@ -7,8 +7,6 @@ A curated list of open source tools and resources for intelligent document proce
 
 ## 1. OCR & Text Recognition
 
-## 1. OCR & Text Recognition
-
 This section is divided into subcategories to help you choose the right tool based on your specific OCR needs.
 
 ### Traditional OCR Engines
@@ -44,15 +42,38 @@ This section is divided into subcategories to help you choose the right tool bas
 
 ## 2. Document Layout and Structuring
 
+### A. General Layout Analysis
 - **LayoutParser**  
   [![GitHub stars](https://img.shields.io/github/stars/Layout-Parser/layout-parser?style=social)](https://github.com/Layout-Parser/layout-parser)  
-  A powerful toolkit for analyzing and detecting layout elements in documents—such as text blocks, tables, and images—with ease and precision.  
+  A comprehensive toolkit leveraging deep learning for detecting layout elements—such as text blocks, tables, and images—in various document types.  
   [Repository](https://github.com/Layout-Parser/layout-parser)
 
+### B. Scholarly Document Metadata Extraction
 - **GROBID**  
   [![GitHub stars](https://img.shields.io/github/stars/kermitt2/grobid?style=social)](https://github.com/kermitt2/grobid)  
-  A machine learning-based tool for extracting and structuring bibliographic and header metadata from scholarly documents, streamlining document analysis workflows.  
+  A specialized tool for extracting and structuring bibliographic and header metadata from academic publications, ideal for scholarly document analysis.  
   [Repository](https://github.com/kermitt2/grobid)
+
+### C. Academic Document Parsing and Analysis
+- **CERMINE**  
+  [![GitHub stars](https://img.shields.io/github/stars/CeON/CERMINE?style=social)](https://github.com/CeON/CERMINE)  
+  A Java-based library that extracts structured metadata and full-text content from scientific PDFs using advanced layout analysis and NLP techniques.  
+  [Repository](https://github.com/CeON/CERMINE)
+
+- **DeepFigures**  
+  [![GitHub stars](https://img.shields.io/github/stars/allenai/deepfigures?style=social)](https://github.com/allenai/deepfigures)  
+  Developed by the Allen Institute for AI, DeepFigures detects and extracts figures and tables from scholarly articles to enhance visual data analysis.  
+  [Repository](https://github.com/allenai/deepfigures)
+
+- **Science Parse**  
+  [![GitHub stars](https://img.shields.io/github/stars/allenai/science-parse?style=social)](https://github.com/allenai/science-parse)  
+  An open-source tool utilizing layout analysis and machine learning to extract structured metadata from academic PDFs, streamlining literature indexing.  
+  [Repository](https://github.com/allenai/science-parse)
+
+- **ParsCit**  
+  [![GitHub stars](https://img.shields.io/github/stars/knmnyn/ParsCit?style=social)](https://github.com/knmnyn/ParsCit)  
+  A citation extraction tool that parses academic documents to extract and structure citation data, useful for building bibliographic databases.  
+  [Repository](https://github.com/knmnyn/ParsCit)
 
 ---
 
