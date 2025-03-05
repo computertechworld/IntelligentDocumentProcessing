@@ -4,9 +4,6 @@ A curated list of open source tools and resources for intelligent document proce
 # Open-Source Tools for Intelligent Document Processing
 
 ---
-# Open-Source Tools for Intelligent Document Processing
-
-This curated list is intended for developers building intelligent document processing solutions. Each tool entry includes its name, a dynamic GitHub stars badge, a concise description, and a repository link. All entries are formatted compactly.
 
 ## 1. OCR & Text Recognition
 
